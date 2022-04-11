@@ -14,7 +14,6 @@ from main_module.static.classes import *
 
 app = Flask(__name__)
 app.config.from_object('config')
-bootstrap = Bootstrap(app)
 
 
 @app.route('/')
