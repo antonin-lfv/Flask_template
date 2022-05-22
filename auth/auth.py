@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template
+from config import *
 
 BLP_auth = Blueprint('BLP_auth', __name__,
                      template_folder='templates',
