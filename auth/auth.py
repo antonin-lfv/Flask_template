@@ -1,4 +1,4 @@
-from config import *
+from flask import Blueprint, render_template, request, redirect, url_for, flash
 
 BLP_auth = Blueprint('BLP_auth', __name__,
                      template_folder='templates',
